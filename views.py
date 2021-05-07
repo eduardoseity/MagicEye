@@ -36,17 +36,7 @@ class StartApp:
             self.buttonClick(key-1)
 
     def focusMainWindow(self,event):
-        # self.mainWin.wm_attributes("-topmost",True)
-        # self.mainWin.grab_set()
-        # self.mainWin.lift()
-        # self.mainWin.wm_attributes("-topmost", False)
         self.mainWin.focus_force()
-        # self.mainWin.wm_attributes("-topmost", True)
-        # self.mainWin.focus()
-        # self.mainWin.grab_release()
-        # WindowMgr().show_window(self.hwnd)
-        # WindowMgr().set_foreground(self.hwnd)
-        # self.mainWin.focus_set()
         pass
 
     def labelHover(self,labelIndex,highlight):
